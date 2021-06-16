@@ -1,0 +1,14 @@
+{
+  "color": {
+    "action": {
+      "primary": {
+        "background": { "value": "{color.brand.blue.value}" },
+        "color": { "value": "{color.font.on-blue.value}" }
+      },
+      "secondary": {
+        "background": { "value": "transparent" },
+        "color": { "value": "{color.brand.blue.value}" }
+      }
+    }
+  }
+}

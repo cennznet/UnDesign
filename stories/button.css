@@ -10,14 +10,21 @@
   line-height: 1;
 }
 .storybook-button--primary {
-  color: white;
-  background-color: var(--color-base-green);
+  color: var(--color-action-primary-color);
+  background-color: var(--color-action-primary-background);
 }
 .storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  color: var(--color-action-secondary-color);
+  background-color: var(--color-action-secondary-background);
+  border: 2px solid var(--color-action-secondary-color);
+  transition: color 0.3s, background-color 0.3s;
 }
+
+.storybook-button--secondary:hover {
+  color: var(--color-action-primary-color);
+  background-color: var(--color-action-primary-background);
+}
+
 .storybook-button--small {
   font-size: 12px;
   padding: 10px 16px;
