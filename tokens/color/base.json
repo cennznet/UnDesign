@@ -1,13 +1,12 @@
 {
   "color": {
-    "base": {
-      "gray": {
-        "light" : { "value": "#CCCCCC" },
-        "medium": { "value": "#999999" },
-        "dark"  : { "value": "#111111" }
-      },
-      "red": { "value": "#FF0000" },
-      "green": { "value": "#00FF00" }
+    "brand": {
+      "black": { "value": "#111111" },
+      "white": { "value": "#FFFFFF" },
+      "blue": { "value": "#1130FF" },
+      "mint-as": { "value": "#D4EF86" },
+      "lilac-love": { "value": "#869DEF" },
+      "punk-love": { "value": "#E80371" }
     }
   }
 }

@@ -26,7 +26,7 @@ module.exports = {
         if (!tokenGroups[tokenKey]) {
           tokenGroups[tokenKey] = [];
         }
-        tokenGroups[tokenKey].push(token);
+        tokenGroups[tokenKey].unshift(token);
       });
       return (
         fileHeader({ file }) +
