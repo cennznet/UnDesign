@@ -1,12 +1,15 @@
 {
-  "name": "UnDesign",
-  "version": "1.0.0",
-  "description": "",
+  "name": "undesign",
+  "version": "0.0.1",
+  "description": "Temporary design system to use as a base for the new design system",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "sb": "yarn storybook",
+    "build": "yarn build-sd && yarn build-sb",
+    "build-sb": "build-storybook",
+    "build-sd": "style-dictionary build"
   },
   "repository": {
     "type": "git",
@@ -14,7 +17,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/cennznet/UnDesign/issues"
   },
@@ -25,7 +28,9 @@
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.2.9",
     "@storybook/react": "^6.2.9",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "storybook-design-token": "^1.0.1",
+    "style-dictionary": "^3.0.1"
   },
   "dependencies": {
     "react": "^17.0.2",
